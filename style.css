@@ -1,0 +1,45 @@
+.container {
+  /* background-color: red; */
+  height: 700px;
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 133px 133px 133px;
+  grid-template-columns: 133px 133px 133px;
+  row-gap: 100px;
+  column-gap: 100px;
+  margin-left: 25%;
+}
+
+.item {
+  background-color: rgb(170, 122, 216);
+}
+
+.item1 {
+  height: 190px;
+  width: 190px;
+
+  border: 2px solid black;
+  border-radius: 2rem;
+  background-color: rgb(108, 108, 206);
+}
+.center {
+  text-align: center;
+}
+h1 {
+  color: rgb(98, 31, 161);
+  font-size: 3rem;
+}
+#red {
+  color: red;
+  display: inline;
+  font-size: 3rem;
+}
+#scndId {
+  background-color: blueviolet;
+  color: aliceblue;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+}
